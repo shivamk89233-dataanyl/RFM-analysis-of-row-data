@@ -12,3 +12,15 @@ Segments customers by purchase behaviour using RFM (Recency, Frequency, Monetary
   - Age bracket mix within each segment (counts and % share)
   - Total, average and median spend by age bracket
   - Spending patterns by marital status
+Tech Stack
+Python, Pandas, NumPy, Matplotlib, Seaborn
+
+Dataset
+Customer_Master_Data.csv: CustomerID, Gender, Age, MaritalStatus, JoinDate
+Customer_Transactions.csv: CustomerID, TransactionDate, TransactionAmount
+How to Run
+Open RFM_Analysis.ipynb in Jupyter or Google Colab.
+Upload both CSV files and update the file paths if needed (the notebook reads from /content/).
+Run all cells.
+Use Cases
+Targeted marketing, retention campaigns, loyalty programs and win-back strategies for At Risk and Lost customers.
